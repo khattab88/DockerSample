@@ -3,6 +3,9 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 As build
 # Set app working (root) directory 
 WORKDIR /app
 
+# Expose port
+EXPOSE 8080
+
 # Copy .csproj file (to root directory => /app)
 COPY *.csproj ./
 # Restore packages
