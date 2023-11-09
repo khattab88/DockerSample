@@ -1,6 +1,6 @@
 # DockerSample
 
-Deploying .NET Core MVC Web App as Docker Container
+Deploying .NET Core Web App as Docker Container
 
 Build: `docker build -t dockersample .`
 
